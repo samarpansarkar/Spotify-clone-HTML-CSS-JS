@@ -14,3 +14,8 @@ This HTML code represents a basic web page for a music player interface designed
 4. **Script Dependencies**: The page uses the Font Awesome library for displaying icons and includes external JavaScript files (`script.js`) for adding interactivity to the player.
 
 Overall, this web page is designed as a simple music player interface that showcases a list of songs, allows users to play and control the songs, and displays song information. The design appears to be a work in progress and could potentially be further developed into a fully functional music player application.
+
+
+__HomePage__
+
+![spotify-clone-homepage](https://github.com/samarpansarkar/spotify-clone-HTML-CSS-JS/blob/master/spotify-clone-homepage.PNG)
