@@ -96,9 +96,12 @@ nav ul li {
     margin-top: 13px;
 }
 
-.icons i {
+/* .icons :hover {
     cursor: pointer;
-}
+    margin: 10px;
+    border: 1.5px;
+    color: red;
+} */
 
 #myProgressBar {
     width: 80vw;
