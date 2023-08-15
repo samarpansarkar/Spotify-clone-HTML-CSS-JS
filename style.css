@@ -1,102 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap");
 
 body {
-    background-color: antiquewhite;
+  background-color: antiquewhite;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* nav bar css */
 nav {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    height: 69px;
-    background-color: rgb(133, 133, 29);
-    color: white;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 69px;
+  background-color: rgb(133, 133, 29);
+  color: white;
 }
 
 nav ul li {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 .brand img {
-    width: 55px;
-    padding: 0 5px;
+  width: 55px;
+  padding: 0 5px;
 }
 
 .brand {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 /* middle part css */
-.songItemConteiner{
-    margin-top: 70px;
+.songItemConteiner {
+  margin-top: 70px;
 }
 .container {
-    min-height: 72vh;
-    background-color: rgb(133, 133, 29);
-    color: white;
-    font-family: 'Varela Round', sans-serif;
-    display: flex;
-    margin: 23px auto;
-    width: 80%;
-    border-radius: 18px;
-    padding: 20px;
-    background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bXVzaWMlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
-    
+  min-height: 72vh;
+  background-color: rgb(133, 133, 29);
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 80%;
+  border-radius: 18px;
+  padding: 20px;
+  background-image: url("https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bXVzaWMlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
 }
 .songItem {
-    height: 20px;
-    display: flex;
-    font-size: 17px;
-    font-style: italic;
-    background-color: white;
-    color: rgb(133, 133, 29);
-    padding: 8px;
-    border-radius: 34px;
-    justify-content: space-between;
-    margin: 10px 10px;
+  height: 20px;
+  display: flex;
+  font-size: 17px;
+  font-style: italic;
+  background-color: white;
+  color: rgb(133, 133, 29);
+  padding: 8px;
+  border-radius: 34px;
+  justify-content: space-between;
+  margin: 10px 10px;
 }
-.songItem img{
-    border-radius: 35px;
-    margin: 0 23px;
-    border-radius: 34px;
-
+.songItem img {
+  border-radius: 35px;
+  margin: 0 23px;
+  border-radius: 34px;
 }
-.timeStamp{
-    max-width: 0 23px;
+.timeStamp {
+  max-width: 0 23px;
 }
 .timeStamp i {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* bottom part  css*/
 
 .botom {
-    position: static;
-    background-color: rgb(133, 133, 29);
-    color: white;
-    height: 130px;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  position: static;
+  background-color: rgb(133, 133, 29);
+  color: white;
+  height: 130px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .icons {
-    margin-top: 13px;
+  margin-top: 13px;
 }
 
 /* .icons :hover {
@@ -107,22 +104,21 @@ nav ul li {
 } */
 
 #myProgressBar {
-    width: 80vw;
-    cursor: pointer;
-    
+  width: 80vw;
+  cursor: pointer;
 }
-.songInfo{
-    position: absolute;
-    left: 10vw;
-    font-size: 25px;
-    font-family: 'Varela Round', sans-serif;
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  font-size: 25px;
+  font-family: "Varela Round", sans-serif;
 }
-.songInfo img{
-    opacity: 0;
-    transition: opacity 0.5s ease-in;
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
 }
 @media only screen and (max-width: 1100px) {
-    body {
-      background-color: red;
-    }
+  body {
+    background-color: red;
   }
+}
